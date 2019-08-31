@@ -1,0 +1,59 @@
+{% extends 'mysite/base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="container" style="margin-top: 100px">
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top" src="{% static 'mysite/images/android.png' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Sign language Identifier</h5>
+                    <p class="card-text">A classifier build using Tensorflow Lite Library to detect the hand gestures used by Differently-Abled people</p>
+                    <p class="card-text">
+                        <small class="text-muted">Deep Learning for Computer Vision</small>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="{% static 'mysite/images/scrape.png' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Python Data Scraping</h5>
+                    <p class="card-text">Python web scraper for collecting profile data based on keywords from Linkedin and storing them in excel sheet/Videos</p>
+                    <p class="card-text">
+                        <small class="text-muted">Python & its libraries</small>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="{% static 'mysite/images/ml.png' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Predictions & Classifications of Datasets</h5>
+                    <p class="card-text">Implementations of Various Machine learning models and Data Analysis for Kaggle competitions</p>
+                    <p class="card-text">
+                        <small class="text-muted">Machine Learning & Data Science</small>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="{% static 'mysite/images/kotlin.png' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Physics Simulation & Tile-Rendereed Android Games</h5>
+                    <p class="card-text">Genres of games build using LibGdx framework upon the Android architecture</p>
+                    <p class="card-text">
+                        <small class="text-muted">Android Applications</small>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="{% static 'mysite/images/nlp.png' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Vocabulary Quality Classifier</h5>
+                    <p class="card-text">Machine Learning based application to classify vocabulary level of a text based on its unique words using an NLP backend</p>
+                    <p class="card-text">
+                        <small class="text-muted">NLP in ML</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
